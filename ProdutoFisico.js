@@ -2,6 +2,7 @@ import { Produto } from "./Produto.js"
 
 
 export class ProdutoFisico extends Produto {
+    
     #peso;
     #altura;
     #largura;
