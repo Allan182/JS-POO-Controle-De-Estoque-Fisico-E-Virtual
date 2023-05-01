@@ -1,5 +1,5 @@
 import { Produto } from "./Produto.js";
-import { ProductNoExist, ProductInvalid, NumberIsNegative, InvalidQtd } from './Error.js';
+import { ProductNoExist, ProductInvalid, NumberIsNegative, InvalidQtd } from './Error.js'; 
 
 export class Estoque {
 
