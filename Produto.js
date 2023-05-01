@@ -4,6 +4,7 @@ export class Produto {
     #preco;
     #descricao;
 
+
     constructor(nome, preco, descricao) {
 
         if (this.constructor != Produto) {
