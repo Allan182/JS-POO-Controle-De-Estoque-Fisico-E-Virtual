@@ -1,4 +1,4 @@
-export class NumberIsInteger extends Error {
+export class NumberIsInteger extends Error { 
     constructor(message) {
         super(message);
         this.name = "Error! Number is not Integer.";
