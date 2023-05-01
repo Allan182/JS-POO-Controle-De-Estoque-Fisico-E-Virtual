@@ -2,6 +2,7 @@ import { Produto } from "./Produto.js"
 
 
 export class ProdutoDigital extends Produto {
+    
     #tamanho;
     #formato;
     #linkDownload;
