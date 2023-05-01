@@ -1,4 +1,4 @@
-export class Cliente {
+export class Cliente { 
     #nome;
     constructor(nome) {
         this.#nome = nome;
