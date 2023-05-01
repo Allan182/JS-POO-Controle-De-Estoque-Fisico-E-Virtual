@@ -1,11 +1,6 @@
-/* realizarVenda que recebe o nome do produto, a quantidade a ser vendida e o cliente 
-(um objeto que represente o comprador) e realiza a venda. Caso o produto não exista no estoque, 
-deve-se retornar uma mensagem de erro. Caso a quantidade a ser vendida seja maior do que a
- quantidade em estoque, deve-se retornar uma mensagem de erro.*/
-
 import { Cliente } from "./Cliente.js";
 import { Produto } from "./Produto.js";
-import { ProductInvalid, InvalidQtd, invalidParameters, invalidPerson, invalidSearch } from './Error.js';
+import { ProductInvalid, InvalidQtd, invalidParameters, invalidSearch } from './Error.js';
 import { Estoque } from "./Estoque.js";
 
 
