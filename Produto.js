@@ -6,8 +6,6 @@ export class Produto {
 
     constructor(nome, preco, descricao) {
 
-        //  this.constructor.name == "Produto"
-
         if (this.constructor != Produto) {
             this.#nome = nome;
             this.#preco = preco;
